@@ -31,7 +31,7 @@ public class CouterPersenter implements Persenter<CounterView> {
     }
 
     public void DoInBackGroud() {
-            // casi view chac lay tu ben mian qua
+            // thực hien tra du lieu ve string cho view nhân
         view.setCounterText(String.valueOf(counter.Sumcouter())
         );
     }
